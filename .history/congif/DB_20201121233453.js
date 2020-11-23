@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const MONGO_URI = "<Your MOngo DB cridentials>";
+const MONGO_URI = "mongodb+srv://ram:FGYoCx3bnN57EdL8@cluster0.cl84n.mongodb.net/expensetracker?retryWrites=true&w=majority";
 
 
 const connectDB = async () =>{
