@@ -1,6 +1,6 @@
 const express = require("express");
 
-const router = express.Router();
+var router = express.Router();
 const { getTransections, addTransections, deleteTransections }  = require('../controller/transections');
 
 router.route('/').get(getTransections).post(addTransections);
